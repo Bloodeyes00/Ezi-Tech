@@ -5,6 +5,8 @@
 #!/bin/bash 
 # Deployment script for GitHub 
 # Push all changes to GitHub 
+git add .
+git commit -m "pushed"
 git push -u origin master 
 ```
 4. Make sure that the `deploy.sh` file is executable by running the command `chmod +x deploy.sh`. 
