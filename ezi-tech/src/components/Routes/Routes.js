@@ -7,7 +7,7 @@ function Routes() {
   return (
 
         <Switch>
-          <Route path='/form'  component={Form} />
+          {/* <Route path='/form'  component={Form} /> */}
           <Route path='/login' component={login} />
           <Route path='/' />
         </Switch>
